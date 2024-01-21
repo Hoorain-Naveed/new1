@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Adjust padding as needed */
+    background-color: white; /* Adjust background color */
+    color: black;
+    box-shadow: 0 0 20px 2px rgba(54, 53, 53, 0.6); 
+  }
+  
+  .heading {
+    flex: 1; /* Take up remaining space */
+    font-weight: 300;
+margin-left: -5%;
+    
+  }
+  
+  .logo-container {
+    width: 10%;
+    float: right;
+    margin-right: 26%; /* Set the width of the logo container */
+  }
+  
+  .logo {
+    margin-left: -16%;
+    border-radius: 50%;
+    margin-right: -15%;
+    width: 10%; /* Make the image fill the container */
+    height: 10%; /* Maintain aspect ratio */
+  }
+  

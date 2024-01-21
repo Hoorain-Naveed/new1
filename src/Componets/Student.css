@@ -1,0 +1,24 @@
+.animated-button {
+    background-color: #3498db; /* Button color */
+    color: white;
+    width: 120%;
+    margin-right: 5%;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .animated-button span {
+    display: inline-block;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .animated-button:hover span {
+    transform: translateY(-5px); /* Adjust the vertical translation as needed */
+  }
+  

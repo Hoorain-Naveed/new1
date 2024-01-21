@@ -1,0 +1,74 @@
+.Rightbar{
+    background-color: whitesmoke;
+    width: 590px;
+    Height:640px;
+    float: right;
+    box-shadow: 0 0 20px 2px rgba(54, 53, 53, 0.6); 
+
+}
+.circle{
+    width: '100px';
+    height: '100px';
+   border-radius: '50px';
+   background-color: #5C92F7;
+}
+.camera{
+    margin-left: 11%;
+    margin-top: -5%;
+}
+
+/* styles.css */
+.inputContainer1 {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    margin-bottom: 5px;
+  }
+  
+  .inputField {
+    width: 150px;
+    padding: 5px;
+    
+    
+}
+
+/* CSS for the Input Field */
+.inputField {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* CSS for the Input Field Focus Animation */
+.inputField:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* CSS for the Label Animation (Optional) */
+.label {
+  position: relative;
+  top: -25px;
+  left: 10px;
+  font-size: 20px;
+  color: #666;
+  font-weight: 800;
+  transition: top 0.3s ease-in-out, font-size 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.inputField:focus + .label,
+.inputField:not(:placeholder-shown) + .label {
+  top: -40px;
+  font-size: 12px;
+  color: #3498db;
+}
+
+  
